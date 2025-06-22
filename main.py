@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 
 MODEL_PATH = "sentiment_model.h5"
 
+
 # GPU check
 device_name = tf.test.gpu_device_name()
 print(f"Using device: {'GPU - ' + device_name if device_name else 'CPU'}")
